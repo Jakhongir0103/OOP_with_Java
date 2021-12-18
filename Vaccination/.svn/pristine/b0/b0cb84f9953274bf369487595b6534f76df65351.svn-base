@@ -1,0 +1,27 @@
+package it.polito.oop.vaccination;
+
+public class Person {
+	private String first;
+	private String lastName;
+	private String ssn;
+	private int year;
+	public Person(String first, String lastName, String ssn, int year) {
+		super();
+		this.first = first;
+		this.lastName = lastName;
+		this.ssn = ssn;
+		this.year = year;
+	}
+	public String getFirst() {
+		return first;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public String getSsn() {
+		return ssn;
+	}
+	public int getYear() {
+		return year;
+	}
+}

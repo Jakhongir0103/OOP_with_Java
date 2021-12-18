@@ -1,0 +1,23 @@
+package it.polito.oop.vaccination;
+
+public class Hub {
+	private String name;
+	private Staff staff;
+
+	public Hub(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}	
+	
+	public void setStaff(int countDoctors, int nurses, int o) {
+		this.staff = new Staff(countDoctors, nurses, o);
+	}
+
+	public Staff getStaff() {
+		return staff;
+	}
+}
